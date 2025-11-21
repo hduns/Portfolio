@@ -201,6 +201,9 @@ li {
 
     h1 {
         font-size: 21.5px;
+        position: fixed;
+        bottom: 40px;
+        left: 30px;
     }
 
     li, .title-clicked {
