@@ -30,7 +30,7 @@ export const Home = () => {
                     </ul>
                 </div>
                 <div className='site-title-container'>
-                    <h1>HANNAH DUNSMORE</h1>
+                    <h1 className="site-name-title">HANNAH DUNSMORE</h1>
                 </div>
             </div>
             <button className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}> {menuOpen ? "−" : "+"} </button>
