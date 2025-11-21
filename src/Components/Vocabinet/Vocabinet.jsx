@@ -43,40 +43,40 @@ export const Vocabinet = () => {
                 <span className="video-caption">Look up new words and add them to your Vocabinet.</span>
                 <LazyVideo
                     project={"vocabinet"}
-                    src={"/videos/AtoZHomeView.mp4"}
-                    poster={"/posters/AtoZHomePoster.jpg"}
+                    src={"./videos/AtoZHomeView.mp4"}
+                    poster={"./posters/AtoZHomePoster.jpg"}
                 />
                 <span className="video-caption">View saved words from A to Z.</span>
                 <LazyVideo
                     project={"vocabinet"}
-                    src={"/videos/ByBookHomeView.mp4"}
-                    poster={"/posters/ByBookHomePoster.jpg"}
+                    src={"./videos/ByBookHomeView.mp4"}
+                    poster={"./posters/ByBookHomePoster.jpg"}
                 />
                 <span className="video-caption">View saved words by book.</span>
                 <LazyVideo
                     project={"vocabinet"}
-                    src={"/videos/SearchSavedWords.mp4"}
-                    poster={"/posters/SearchSavedWords.jpg"} />
+                    src={"./videos/SearchSavedWords.mp4"}
+                    poster={"./posters/SearchSavedWords.jpg"} />
                 <span className="video-caption">Search saved words.</span>
                 <h2 className="project-subtitle">EDIT MODE</h2>
                 <LazyVideo
                     project={"vocabinet"}
-                    src={"/videos/EditName.mp4"}
-                    poster={"/posters/EditName.jpg"}
+                    src={"./videos/EditName.mp4"}
+                    poster={"./posters/EditName.jpg"}
                 />
                 <span className="video-caption">Own your Vocabinet.</span>
                 <LazyVideo
                     project={"vocabinet"}
-                    src={"/videos/EditMode.mp4"}
-                    poster={"/posters/EditMode.jpg"}
+                    src={"./videos/EditMode.mp4"}
+                    poster={"./posters/EditMode.jpg"}
                 />
                 <span className="video-caption">Manage and edit saved words.</span>
                 <h2 className="project-subtitle">MOBILE VIEW</h2>
-                <img className="project-screenshot-mobile" src="/screenshots/SaveWordWithoutBook.png" alt="Save word without book Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/ByBookMobile.png" alt="By Book Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/AToZMobile.png" alt="A To Z Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/EditModeMobile.png" alt="Edit Mode Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/EditStandaloneWord.png" alt="Edit word Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/SaveWordWithoutBook.png" alt="Save word without book Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/ByBookMobile.png" alt="By Book Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/AToZMobile.png" alt="A To Z Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/EditModeMobile.png" alt="Edit Mode Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/EditStandaloneWord.png" alt="Edit word Mobile View" />
                 <div className="spacer"></div>
             </div>
         </>

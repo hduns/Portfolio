@@ -32,8 +32,8 @@ export const MyGroceries = () => {
                 {windowWidth <= 1000 && ( <span className="video-instruction">*Click to play/pause.</span>)}
                 <LazyVideo
                     project="my-groceries"
-                    src="/videos/Login.mp4"
-                    poster="/posters/Login.jpg"
+                    src="./videos/Login.mp4"
+                    poster="./posters/Login.jpg"
                     preload="auto"
                     forceLoad={true}
                     onLoaded={() => setIsFirstVideoLoaded(true)}
@@ -41,40 +41,40 @@ export const MyGroceries = () => {
                 <span className="video-caption">Log in and view saved recipes.</span>
                 <LazyVideo
                     project="my-groceries"
-                    src="/videos/AddRecipe.mp4"
-                    poster="/posters/AddRecipe.jpg"
+                    src="./videos/AddRecipe.mp4"
+                    poster="./posters/AddRecipe.jpg"
                 />
                 <span className="video-caption">Add new recipes.</span>
 
                 <LazyVideo
                     project="my-groceries"
-                    src="/videos/EditRecipe.mp4"
-                    poster="/posters/EditRecipe.jpg"
+                    src="./videos/EditRecipe.mp4"
+                    poster="./posters/EditRecipe.jpg"
                 />
                 <span className="video-caption">Edit your existing recipes.</span>
 
                 <LazyVideo
                     project="my-groceries"
-                    src="/videos/EditMenuPlanner.mp4"
-                    poster="/posters/EditMenuPlanner.jpg"
+                    src="./videos/EditMenuPlanner.mp4"
+                    poster="./posters/EditMenuPlanner.jpg"
                 />
                 <span className="video-caption">Create meal plan.</span>
 
                 <LazyVideo
                     project="my-groceries"
-                    src="/videos/EditKitchenInventory.mp4"
-                    poster="/posters/EditKitchenInventory.jpg"
+                    src="./videos/EditKitchenInventory.mp4"
+                    poster="./posters/EditKitchenInventory.jpg"
                 />
                 <span className="video-caption">
                     Mark the items you have at home to update your shopping list.
                 </span>
 
                 <h2 className="project-subtitle">MOBILE VIEW</h2>
-                <img className="project-screenshot-mobile" src="/screenshots/RecipesList.jpg" alt="Recipe list Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/RecipeDetail.jpg" alt="Recipe detail Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/AddRecipeForm.jpg" alt="Add Recipe Form Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/EditRecipe.jpg" alt="Edit Recipe Mobile View" />
-                <img className="project-screenshot-mobile" src="/screenshots/MenuPlanner.jpg" alt="Menu Planner Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/RecipesList.jpg" alt="Recipe list Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/RecipeDetail.jpg" alt="Recipe detail Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/AddRecipeForm.jpg" alt="Add Recipe Form Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/EditRecipe.jpg" alt="Edit Recipe Mobile View" />
+                <img className="project-screenshot-mobile" src="./screenshots/MenuPlanner.jpg" alt="Menu Planner Mobile View" />
                 <div className="spacer"></div>
             </div>
         </>
