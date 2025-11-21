@@ -1,0 +1,215 @@
+.loading-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 990;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  background-color: white;
+}
+
+.project-content.hidden {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.project-content.visible {
+  max-height: 5000px;
+  opacity: 1;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+
+.project-title {
+  font-size: 58px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-align: right;
+  margin-bottom: 100px;
+}
+
+.project-intro-tag {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.project-intro-subtitle {
+  display: block;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  margin-bottom: 7px;
+}
+
+.project-intro-text {
+  display: block;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 25px;
+  max-width: 95%;
+}
+
+
+.project-technologies {
+  display: block;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.spacer {
+  height: 35px;
+}
+
+.video-caption {
+  display: block;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+}
+
+.video-instruction {
+  display: block;
+  font-size: 13px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.project-subtitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  margin: 80px 0 40px 0;
+}
+
+.project-screenshot-mobile {
+  display: block;
+  width: 320px;
+  margin: 50px 0;
+  border: solid black 5px;
+}
+
+@media (max-width: 1340px) {
+  .project-title {
+    font-size: 47px;
+    margin-bottom: 80px;
+  }
+
+  .project-intro-tag {
+    font-size: 19px;
+  }
+
+  .project-technologies {
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .project-title {
+    font-size: 44px;
+    margin-bottom: 64px;
+  }
+
+  .project-intro-tag {
+    font-size: 18px;
+  }
+
+  .project-technologies {
+    font-size: 18px;
+  }
+
+  .project-intro-text {
+    font-size: 15px;
+
+  }
+
+  .video-caption {
+    font-size: 13px;
+    margin-left: 0;
+  }
+
+  .project-screenshot-mobile {
+    width: 300px;
+  }
+
+  .project-subtitle {
+    margin: 60px 0 34px 0;
+  }
+
+  .project-screenshot-mobile {
+    border: solid black 3.75px;
+  }
+}
+
+@media (max-width: 800px) {
+  .project-title {
+    font-size: 33px;
+    margin-bottom: 45px;
+  }
+
+  .project-intro-tag {
+    font-size: 17px;
+  }
+
+  .project-technologies {
+    font-size: 16px;
+  }
+
+  .project-intro-subtitle {
+    font-size: 16px;
+  }
+
+  .project-intro-text {
+    font-size: 14px;
+  }
+
+  .video-caption {
+    font-size: 11.5px;
+    margin-left: 0;
+    margin-bottom: 43px;
+  }
+
+  .project-screenshot-mobile {
+    width: 250px;
+    margin: 43px 0;
+  }
+
+  .project-subtitle {
+    margin: 52px 0 30px 0;
+  }
+
+}
+
+@media (max-width: 615px) {
+  .project-title {
+    font-size: 45px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 15px;
+  }
+
+  .project-screenshot-mobile {
+    width: 100%;
+  }
+}

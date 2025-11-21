@@ -1,0 +1,47 @@
+.video-wrapper-vocabinet {
+  width: 100.5%;
+  overflow: hidden; 
+  position: relative;
+  background-color: black;
+  font-size: 0;
+  line-height: 0;
+  padding: 4px;
+  padding-bottom: 5.5px;
+}
+
+.video-wrapper-vocabinet video {
+  width: 100%;
+  height: auto;         
+  display: block;      
+  margin-bottom: -2px;  
+}
+
+.video-wrapper-my-groceries {
+  width: 100%;
+  overflow: hidden; 
+  position: relative;
+  background-color: black;
+  font-size: 0;
+  line-height: 0;
+  padding: 4px;
+  padding-bottom: 4.5px;
+}
+
+.video-wrapper-my-groceries video {
+  width: 100%;
+  height: auto;         
+  display: block;      
+}
+
+
+@media (max-width: 1024px) {
+.video-wrapper-vocabinet {
+  padding: 3px;
+  padding-bottom: 4.75px;
+}
+
+.video-wrapper-my-groceries {
+  padding: 3px;
+  padding-bottom: 3.8px;
+}
+}
