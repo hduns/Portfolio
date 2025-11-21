@@ -34,8 +34,8 @@ export const Vocabinet = () => {
                 {windowWidth <= 1000 && ( <span className="video-instruction">*Click to play/pause.</span>)}
                     <LazyVideo
                     project={"vocabinet"}
-                    src={"/videos/SearchAndSave.mp4"}
-                    poster={"/posters/SearchAndSave.jpg"}
+                    src={"./videos/SearchAndSave.mp4"}
+                    poster={"./posters/SearchAndSave.jpg"}
                     preload="auto"
                     forceLoad={true}
                     onLoaded={() => setIsFirstVideoLoaded(true)}
